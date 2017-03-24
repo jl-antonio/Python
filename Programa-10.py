@@ -1,9 +1,10 @@
 #-- 10. Crear un programa que por medio de recursion calcule la suma de los cuadrados de n numeros. --
-def recursive (dato, variable=0):
-    if(dato>=0):
-        variable+=dato**2
-        return recu(dato-1,variable)
+def recursion (num, sumNumero=0):
+    if(num>=0):
+        sumNumero+=num**2
+        return recursion(num-1,sumNumero)
     else:
-        print variable
+        print sumNumero
 
-recursive(3, 1)
+x=input("Cantidad ?: ")
+recursion(x)
