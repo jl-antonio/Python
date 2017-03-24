@@ -2,9 +2,9 @@
 
 def media(x,y,z):
 
-	result = (x+y+z)/3 
+	resultado = (x+y+z)/3 
 
-	return result,x,y,z
+	return resultado,x,y,z
 
 valor, v1, v2, v3 = media(10,8,10)
 
